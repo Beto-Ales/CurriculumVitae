@@ -1,0 +1,157 @@
+body{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    grid-template-columns: 1fr;
+}
+
+/* make all the content span 90% of the screen */
+header, main, footer{
+    text-align: center;
+    width: 90%;
+}
+
+/* text color */
+h1, h2, h3, p, ul, a{
+    color: #FBF8D5;
+}
+
+/* font size
+------------ */
+h1{
+    font-size: 2.2em;
+}
+
+h2{
+    font-size: 1.65em;
+}
+
+/* this is to avoid gaps between the sections */
+h3{
+    margin-top: 0;
+    font-size: 1.287em;
+
+}
+
+p{
+    margin-bottom: 0;
+}
+
+p, ul, a{
+    font-size: 1.2em;
+}
+
+/* paragraph inside personal profile section */
+.personal-profile p{
+    padding: 1em;
+}
+
+/* set all the unorder list */
+ul{
+    width: inherit;
+    margin: auto;
+    padding: 0;
+    list-style-type: none;
+}
+
+/* the  color and the script behind the photo */
+.picture-background{
+    background-image: linear-gradient(to right, #2c312d, #060806);
+   display: grid;   
+   grid-template-areas: "a";
+   overflow: hidden; 
+}
+
+.picture-background p{
+    color: #718290;
+    margin-top: 0;
+    padding: 1em;
+    grid-area: a;
+    height: 2em;
+    text-align: left;
+    min-width: 95%;
+    word-break: break-all;
+}
+
+img{
+    clip-path: circle(47%);
+    max-width: 30%;
+    grid-area: a;
+    margin: auto;    
+}
+
+/* padding to all sections */
+.header-text, .personal-profile, .education, .skills, .experience, .footer{
+    padding: 5em 0;
+}
+
+/* set the background color to all the sections
+----------------------------------------------- */
+
+header{
+    background-color: #313747;    
+}
+
+.personal-profile{
+    background-color: #355456;
+}
+
+.education{
+    background-color: #4D868F;
+}
+
+.skills{
+    background-color: #51666f;
+}
+
+.experience{
+    background-color: #596367;
+}
+
+.footer{
+    background-color: #605f5e;
+}
+
+@media only screen and (min-width: 44.375em) {
+    article {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      grid-template-rows: max-content;
+      grid-template-areas: "a b"
+                           "c d";
+    }
+
+    .a{
+        grid-area: a;
+        background-color: #355456;
+    }
+
+    .b{
+        grid-area: b;
+        background-color:#51666f;
+    }
+
+    .c{
+        grid-area: c;
+        background-color: #355456;
+    }
+
+    .d{
+        grid-area: d;
+        background-color: #51666f;
+    }
+
+    .skills{
+        background-color: #355456;
+    }
+
+    .experience{        
+        background-color: #51666f;
+    }
+
+    .education{        
+        background-color: #51666f;
+    }
+
+
+  }
