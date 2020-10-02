@@ -16,6 +16,11 @@ h1, h2, h3, p, ul, a{
     color: #FBF8D5;
 }
 
+a:hover{
+    color: #ffb300;
+    font-size: 1.25em;
+}
+
 /* font size
 ------------ */
 h1{
