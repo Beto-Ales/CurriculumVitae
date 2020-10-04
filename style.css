@@ -67,6 +67,7 @@ ul{
    overflow: hidden; 
 }
 
+/* scripting effect */
 .picture-background p{
     color: #718290;
     margin-top: 0;
@@ -78,6 +79,7 @@ ul{
     word-break: break-all;
 }
 
+/* profile picture */
 img{
     clip-path: circle(47%);
     max-width: 30%;
@@ -117,6 +119,7 @@ header{
     background-color: #605f5e;
 }
 
+/* set of styles for medium and big screen size */
 @media only screen and (min-width: 44.375em) {
     article {
       display: grid;
