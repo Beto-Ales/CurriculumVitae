@@ -59,6 +59,10 @@ ul{
     list-style-type: none;
 }
 
+.lb{
+    color: #cddc39;
+}
+
 /* the  color and the script behind the photo */
 .picture-background{
     background-image: linear-gradient(to right, #2c312d, #060806);
