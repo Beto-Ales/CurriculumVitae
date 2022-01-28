@@ -91,6 +91,10 @@ img{
     margin: auto;    
 }
 
+.heroku{
+    max-width: 5%;
+}
+
 /* padding to all sections */
 .header-text, .personal-profile, .education, .skills, .experience, .footer{
     padding: 5em 0;
