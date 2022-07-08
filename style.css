@@ -1,3 +1,22 @@
+/* use this font for apps
+------------------------- */
+
+/* --lt-color-gray-100: #f8f9fc;
+--lt-color-gray-200: #f1f3f9;
+--lt-color-gray-300: #dee3ed;
+--lt-color-gray-400: #c2c9d6;
+--lt-color-gray-500: #8f96a3;
+--lt-color-gray-600: #5e636e;
+--lt-color-gray-700: #2f3237;
+--lt-color-gray-800: #1d1e20;
+--lt-color-gray-900: #111213; */
+
+/* font-family: Roboto,
+RobotoDraft,
+Helvetica,
+Arial,
+sans-serif; */
+
 body{
     display: grid;
     justify-content: center;
@@ -14,11 +33,6 @@ header, main, footer{
 /* text color */
 h1, h2, h3, p, ul, a{
     color: #FBF8D5;
-}
-
-a:hover{
-    color: #ffb300;
-    font-size: 1.25em;
 }
 
 /* font size
@@ -42,7 +56,18 @@ p{
     margin-bottom: 0;
 }
 
-p, ul, a{
+a{
+    font-size: 1em;
+    transition: all 0.2s;
+}
+
+a:hover {
+    /* color: #ffb300; */
+    color: #ffed21;
+    font-size: 1.15em;
+}
+
+p, ul{
     font-size: 1.2em;
 }
 
@@ -60,15 +85,16 @@ ul{
 }
 
 .lb{
-    color: #cddc39;
+    /* color: #cddc39; */
+    color: #c6e5f2;
 }
 
 /* the  color and the script behind the photo */
 .picture-background{
     background-image: linear-gradient(to right, #2c312d, #060806);
-   display: grid;   
-   grid-template-areas: "a";
-   overflow: hidden; 
+    display: grid;   
+    grid-template-areas: "a";
+    overflow: hidden; 
 }
 
 /* scripting effect */
@@ -91,8 +117,14 @@ img{
     margin: auto;    
 }
 
-.heroku{
+/* .heroku{
     max-width: 5%;
+} */
+
+.fa-react{
+    /* color: rgb(0, 209, 247); */
+    color: #6fd4ff;
+    font-size: 1.1em;
 }
 
 /* padding to all sections */
