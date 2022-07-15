@@ -84,6 +84,10 @@ ul{
     list-style-type: none;
 }
 
+li{
+    margin: 0.1em;
+}
+
 .lb{
     /* color: #cddc39; */
     color: #c6e5f2;
